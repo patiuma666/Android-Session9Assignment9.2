@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+---->To create a application of opions menu on the Action bar
+    ---> we have to create a directory in the resource file and that in the menu directory
+    ---> we create an main.xml file to get the options of the items
+    <item
+        android:id="@+id/Computer"
+        android:icon="@color/colorBlack"
+        android:title="Computer" />
+
+    <item android:id="@+id/Gamepad"
+            android:title="Gamepad"/>
+
+    <item android:id="@+id/Camera"
+         android:title="Camera"/>
+
+    <item android:id="@+id/Vedio"
+        android:title="Vedio"/>
+
+    <item android:id="@+id/Email"
+        android:title="Email"/>
+
+
+</menu>
